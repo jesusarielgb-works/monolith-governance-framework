@@ -3,6 +3,19 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [SemVer](http
 
 ## [Unreleased]
 
+## [2.1.0] - YYYY-MM-DD
+
+### Added
+- Evidence from the engineering casebook: two-phase destructive migrations [CASE-005],
+  module boundaries around decisions likely to change [BIB-001]
+- `docs-check` workflow: links, citations and territory checked on every pull request
+- `CITATION.cff`
+
+### Changed
+- The changeset id follows liquibase-migration-standards v1.1.0: the owning module is the
+  segment after the sequence number (`2026-01-15-003-billing-add-invoice-lines`), replacing
+  the `billing-003` prefix
+
 ## [2.0.0] - 2026-09-12
 
 ### Added

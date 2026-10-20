@@ -52,7 +52,7 @@ class ModuleBoundaryTest {
 
 ## Migrations
 
-- **Library and files** — Liquibase, exactly as [`../06-data/migrations.md`](../06-data/migrations.md) fixes it for the whole application, under `src/main/resources/db/migration/`: one master changelog including one file per changeset, named `billing-003-add-invoice-lines.yaml`, each carrying a `rollback` block.
+- **Library and files** — Liquibase, exactly as [`../06-data/migrations.md`](../06-data/migrations.md) fixes it for the whole application, under `src/main/resources/db/migration/`: one master changelog including one file per changeset, named `2026-01-15-003-billing-add-invoice-lines.yaml`, each carrying a `rollback` block.
 - **Wiring** — `spring.liquibase.change-log: classpath:db/migration/db.changelog-master.yaml`, because Boot's default points at a different folder. Without it the build starts against an empty schema and every test lies.
 
 ## Test layers

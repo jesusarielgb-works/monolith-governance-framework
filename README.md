@@ -1,14 +1,14 @@
 # Monolith Governance Framework
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![version 2.0.0](https://img.shields.io/badge/version-2.0.0-blue.svg)](CHANGELOG.md)
+[![version 2.1.0](https://img.shields.io/badge/version-2.1.0-blue.svg)](CHANGELOG.md)
 [![jesusarielgb-works](https://img.shields.io/badge/org-jesusarielgb--works-lightgrey.svg)](https://github.com/jesusarielgb-works)
 
 > A Software Design Documentation framework for teams building **one deployable
 > application**: fifteen sections saying what to write down, in what order,
 > and when each is finished.
 
-**Author:** [Jesus Ariel Gonzalez Bonilla](https://github.com/jesusarielgb-works)
+**Author:** [Jesús Ariel González Bonilla](https://github.com/jesusarielgb-works)
 
 ## Scope
 
@@ -88,9 +88,15 @@ gating its order (`04-requirements` feeding `12-ux-ui`).
 | [`13-operations/`](./13-operations/README.md) | How does the running application show its state, and what happens when it fails? |
 | [`_stacks/`](./_stacks/README.md) | What does all of the above look like on disk, in my language? |
 
+## Evidence
+
+Rules cite verified records of the
+[engineering casebook](https://github.com/jesusarielgb-works/engineering-casebook) as
+`[CASE-NNN]` or `[BIB-NNN]`; CI fails when a citation does not resolve.
+
 ## How to cite
 
-> Gonzalez Bonilla, J. A. (2026). *Monolith Governance Framework* (v2.0.0).
+> González Bonilla, J. A. (2026). *Monolith Governance Framework* (v2.1.0).
 > jesusarielgb-works. https://github.com/jesusarielgb-works/monolith-governance-framework
 
 ## Contributing
@@ -99,4 +105,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — Jesus Ariel Gonzalez Bonilla. See [LICENSE](LICENSE).
+MIT — Jesús Ariel González Bonilla. See [LICENSE](LICENSE).
+See also [`CITATION.cff`](CITATION.cff).

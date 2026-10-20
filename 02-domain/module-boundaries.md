@@ -23,6 +23,8 @@ its data, exposes a narrow **public API**, and keeps everything else **internal*
 2. A module should own the data it writes. If two modules write the same table,
    the boundary is in the wrong place.
 3. Prefer **fewer, larger** modules at the start. Splitting is cheap; merging is not.
+4. Put each decision that is likely to change inside one module, so that changing it
+   touches one module only. [BIB-001]
 
 ## Module map
 
@@ -41,5 +43,7 @@ its data, exposes a narrow **public API**, and keeps everything else **internal*
 | Circular dependency between modules | One of them should not exist |
 
 ---
+
+**Evidence:** [BIB-001](https://github.com/jesusarielgb-works/engineering-casebook/blob/v1.0.0/records/bib/BIB-001-parnas-1972.md) — Parnas (1972): decompose around decisions likely to change.
 
 **Related:** [`../05-architecture/modular-monolith.md`](../05-architecture/modular-monolith.md) · [`../09-modules/module-catalog.md`](../09-modules/module-catalog.md)

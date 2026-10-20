@@ -1,0 +1,12 @@
+name: docs-check
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  docs:
+    uses: jesusarielgb-works/engineering-casebook/.github/workflows/check-docs.yml@v1.0.0
+    with:
+      casebook-ref: v1.0.0
+    secrets: inherit
