@@ -3,7 +3,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [SemVer](http
 
 ## [Unreleased]
 
-## [2.1.0] - YYYY-MM-DD
+## [2.1.0] - 2026-10-20
 
 ### Added
 - Evidence from the engineering casebook: two-phase destructive migrations [CASE-005],
